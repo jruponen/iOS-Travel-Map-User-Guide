@@ -28,7 +28,7 @@ Keep track of every place you've visited. Add locations manually on the map, imp
 When you open the app for the first time:
 
 - **Location access** — the app asks for permission to use your location. Allow it so the map can centre on where you are. You can still use the app without this.
-- **Two tabs** appear at the bottom: **Map** and **Places**.
+- **Two tabs** appear — **Map** and **Places** — at the bottom of the screen on iPhone, or at the top on iPad.
 
 ---
 
