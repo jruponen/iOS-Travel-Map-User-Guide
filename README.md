@@ -218,14 +218,14 @@ The backup file is named `iOS-Travel-Map_YYYY-MM-DD_HHmmss.zip`.
 
 ### Restore from a backup
 
-<img src="Images/14_backup_import.png" width="300" alt="Restore mode dialog with Replace All, Add Missing Only and Cancel options">
+<img src="Images/14_backup_import.png" width="300" alt="Restore mode dialog with Replace All Data and Add Missing Only options">
 
 1. Tap **⋯ → Import Backup**.
 2. Browse to your `.zip` backup file and tap it.
 3. A dialog shows how many places were found in the backup. Choose:
-   - **Replace All** — deletes everything currently in the app, then imports all places from the backup. Use this to fully restore.
+   - **Replace All Data** — deletes everything currently in the app, then imports all places from the backup. Use this to fully restore.
    - **Add Missing Only** — keeps your existing places and only adds places not already present. Use this to merge two devices.
-   - **Cancel** — does nothing.
+   - **Cancel** — tap anywhere outside the dialog to cancel without making any changes.
 
 ---
 
@@ -242,7 +242,7 @@ Your places sync automatically across all your Apple devices signed into the sam
 - **Custom pins** — open any place in Edit to change its pin colour and icon. If you assign a photo to a place, the photo thumbnail is shown on the map instead.
 - **Jump to a place on the map** — from the Places tab, tap a place to open its detail, then tap the mini-map to switch to the Map tab centred on that place.
 - **Changed your mind about a photo?** Tap a saved place → Edit, then tap the photo thumbnail to pick a new one from your library.
-- **Moved to a new phone?** Export a backup on the old phone, AirDrop the ZIP to the new phone, then Import Backup → Replace All. All your places, photos, and pin styles will be there.
+- **Moved to a new phone?** Export a backup on the old phone, AirDrop the ZIP to the new phone, then Import Backup → Replace All Data. All your places, photos, and pin styles will be there.
 
 ---
 
