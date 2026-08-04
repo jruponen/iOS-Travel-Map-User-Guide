@@ -218,14 +218,17 @@ The backup file is named `iOS-Travel-Map_YYYY-MM-DD_HHmmss.zip`.
 
 ### Restore from a backup
 
-<img src="Images/14_backup_import.png" width="300" alt="Restore mode dialog with Replace All Data and Add Missing Only options">
+<img src="Images/14_backup_import.png" width="300" alt="File picker showing a backup ZIP file selected for import">
 
 1. Tap **⋯ → Import Backup**.
 2. Browse to your `.zip` backup file and tap it.
+
+<img src="Images/14b_backup_import.png" width="300" alt="Restore dialog showing Replace All Data, Add Missing Only and Cancel buttons">
+
 3. A dialog shows how many places were found in the backup. Choose:
    - **Replace All Data** — deletes everything currently in the app, then imports all places from the backup. Use this to fully restore.
    - **Add Missing Only** — keeps your existing places and only adds places not already present. Use this to merge two devices.
-   - **Cancel** — tap anywhere outside the dialog to cancel without making any changes.
+   - **Cancel** — cancels import without making any changes.
 
 ---
 
