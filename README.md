@@ -34,12 +34,26 @@ When you open the app for the first time:
 
 ## 2. Map Tab
 
-The Map tab shows a full-screen map with red pins marking all your saved places.
+The Map tab shows a full-screen map with custom pins marking all your saved places.
 
 <img src="Images/01_map_overview.png" width="300" alt="Map tab with saved place pins">
 
+### Change the map style
+
+<img src="Images/01b_map_overview.png" width="300" alt="Map style picker showing Standard, Hybrid and Satellite options">
+
+Tap the small **map style button** in the bottom-left corner of the map. Three tiles appear — tap **Standard**, **Hybrid**, or **Satellite** to switch. Tap the button again to collapse the picker. Your choice is remembered.
+
 ### Zoom to fit all places
 Tap the **pin icon** (top-left toolbar button) to zoom the map out so all your saved places are visible at once.
+
+### Search for a location
+
+Tap the **🔍 search button** in the toolbar to reveal the search bar. Type a city or place name and select a result — the add sheet opens with the name and coordinates pre-filled.
+
+<img src="Images/03_map_search.png" width="300" alt="Search bar open with location results">
+
+Tap the search button again (or tap ✕) to hide the search bar.
 
 ### Add a place by dropping a pin
 
@@ -47,36 +61,35 @@ Tap the **pin icon** (top-left toolbar button) to zoom the map out so all your s
 
 1. Tap **+** in the top-right toolbar. An orange crosshair appears in the centre of the map.
 2. Pan and zoom the map until the crosshair is over the location you want to add.
-3. Tap **Place here**. The app reverse-geocodes the coordinates and pre-fills the place name as *City, Country*.
+3. Tap **Place here**. The app reverse-geocodes the coordinates and pre-fills the trip name as *City, Country*.
 4. Edit the name, date, photo, and notes if needed.
 5. Tap **Save**.
 
-### Add a place by searching
-
-<img src="Images/03_map_search.png" width="300" alt="Search bar open with location results">
-
-1. Tap the **search bar** at the top of the map and type a city or place name.
-2. Select a result from the list. The add sheet opens with the name and coordinates already filled in.
-3. Edit if needed, then tap **Save**.
-
 ### View or edit a saved place
-Tap any red pin on the map to open the place detail sheet.
+Tap any pin on the map to open the place detail sheet.
 
 ---
 
 ## 3. Add / Edit Place Sheet
 
-<img src="Images/04_add_place.png" width="300" alt="Add place form with name, date, photo and location preview">
+<img src="Images/04_add_place.png" width="300" alt="Add place form showing Trip Name, Location Details and Date sections">
 
 A form sheet for creating or editing a place record.
 
 | Field | Details |
 |---|---|
-| Place Name | Free-text, required. Pre-filled from geocoding or search. |
+| Trip Name | Free-text, required. Pre-filled from geocoding or search as *City, Country*. Can be changed to any custom name (e.g. "Mediterranean trip"). |
+| City | Optional. Auto-filled from GPS — edit if needed or leave blank. |
+| Country | Optional. Auto-filled from GPS — edit if needed or leave blank. |
 | Date Visited | Date picker, defaults to today. |
 | Photo | Optional. Chosen from the photo library. |
+| Pin Style | Pick a colour (8 swatches) and an icon (16 symbols). A live preview shows how your pin will look on the map. If a photo is set, the photo is always shown on the pin. |
 | Notes | Optional multi-line text. |
-| Location preview | Embedded mini-map showing the pin. Tap **Adjust** to fine-tune the pin position. |
+| Location preview | Embedded mini-map. Tap **Adjust** to fine-tune the pin position. |
+
+<img src="Images/04b_add_place.png" width="300" alt="Add place form showing Photo and Pin Style sections">
+
+<img src="Images/04c_add_place.png" width="300" alt="Add place form showing Notes and Location sections">
 
 ### Adjust the location
 Tap **Adjust** below the location preview map. An orange crosshair appears — pan the map to the precise position, then tap **Use this location** to confirm.
@@ -90,7 +103,7 @@ Tap **Adjust** below the location preview map. An orange crosshair appears — p
 Tapping a place (from the map or the list) opens a detail sheet showing:
 
 - Place name, date visited, and GPS coordinates
-- A mini-map centred on the location
+- A mini-map centred on the location — **tap the mini-map** to jump to that place on the main Map tab
 - Notes (if any were added)
 - A photo (if one was added)
 
@@ -100,9 +113,17 @@ Tap **Edit** to open the edit form, or **Delete Place** at the bottom to remove 
 
 ## 5. Places Tab
 
-<img src="Images/06_places_list.png" width="300" alt="Places list showing saved locations">
+<img src="Images/06_places_list.png" width="300" alt="Places list showing saved locations with search button in toolbar">
 
-The Places tab shows a list of all your saved places.
+The Places tab shows a list of all your saved places. Each row shows the trip name, city/country (if set), date, and notes snippet.
+
+### Search the list
+
+Tap the **🔍 search button** in the toolbar to reveal an inline search bar.
+
+<img src="Images/06b_places_list.png" width="300" alt="Places list with search bar open and results filtered">
+
+Type to filter by trip name, city, country, or notes. Tap the button again to hide the search bar and clear the filter.
 
 ### Sort the list
 
@@ -113,6 +134,10 @@ Tap the **sort button** (↑↓ circle icon) in the toolbar and choose from:
 - **Date (oldest first)**
 - **Name (A → Z)**
 - **Name (Z → A)**
+- **City (A → Z)**
+- **City (Z → A)**
+- **Country (A → Z)**
+- **Country (Z → A)**
 
 ### Delete a place
 Swipe left on any row and tap **Delete**.
@@ -129,6 +154,7 @@ Tap **⋯** in the top-right toolbar of the Places tab to access:
 - **Import Backup** — restore from a ZIP backup
 - **Get Locations from Shared Photo Albums** — import places from an iCloud Shared Album
 - **Explore Photos on Map** — browse your entire photo library on a map
+- **Help / User Guide** — opens this guide in Safari
 
 ---
 
@@ -213,8 +239,10 @@ Your places sync automatically across all your Apple devices signed into the sam
 
 - **Large photo library?** Explore Photos on Map handles tens of thousands of photos — it clusters them into city-level pins so the map stays fast and easy to use.
 - **Same city, many photos?** Both import features cluster nearby photos into a single place entry. The Shared Album import lets you choose the clustering radius (10, 20, 50, or 100 km) — use a smaller radius for dense city trips, larger for road trips. Explore Photos on Map uses a fixed ~50 km grid.
+- **Custom pins** — open any place in Edit to change its pin colour and icon. If you assign a photo to a place, the photo thumbnail is shown on the map instead.
+- **Jump to a place on the map** — from the Places tab, tap a place to open its detail, then tap the mini-map to switch to the Map tab centred on that place.
 - **Changed your mind about a photo?** Tap a saved place → Edit, then tap the photo thumbnail to pick a new one from your library.
-- **Moved to a new phone?** Export a backup on the old phone, AirDrop the ZIP to the new phone, then Import Backup → Replace All. All your places and photos will be there.
+- **Moved to a new phone?** Export a backup on the old phone, AirDrop the ZIP to the new phone, then Import Backup → Replace All. All your places, photos, and pin styles will be there.
 
 ---
 
