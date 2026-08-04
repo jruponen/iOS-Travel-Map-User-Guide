@@ -1,6 +1,6 @@
 # iOS Travel Map — User Guide
 
-<img src="iOS Travel Map/Images/AppIcon.png" width="120" alt="iOS Travel Map app icon">
+<img src="Images/AppIcon.png" width="120" alt="iOS Travel Map app icon">
 
 Keep track of every place you've visited. Add locations manually on the map, import them from your photo albums, or discover them from your entire photo library — then browse, edit, and back up your travel history.
 
@@ -36,14 +36,14 @@ When you open the app for the first time:
 
 The Map tab shows a full-screen map with red pins marking all your saved places.
 
-<img src="iOS Travel Map/Images/01_map_overview.png" width="300" alt="Map tab with saved place pins">
+<img src="Images/01_map_overview.png" width="300" alt="Map tab with saved place pins">
 
 ### Zoom to fit all places
 Tap the **pin icon** (top-left toolbar button) to zoom the map out so all your saved places are visible at once.
 
 ### Add a place by dropping a pin
 
-<img src="iOS Travel Map/Images/02_map_crosshair.png" width="300" alt="Crosshair mode with Place here button">
+<img src="Images/02_map_crosshair.png" width="300" alt="Crosshair mode with Place here button">
 
 1. Tap **+** in the top-right toolbar. An orange crosshair appears in the centre of the map.
 2. Pan and zoom the map until the crosshair is over the location you want to add.
@@ -53,7 +53,7 @@ Tap the **pin icon** (top-left toolbar button) to zoom the map out so all your s
 
 ### Add a place by searching
 
-<img src="iOS Travel Map/Images/03_map_search.png" width="300" alt="Search bar open with location results">
+<img src="Images/03_map_search.png" width="300" alt="Search bar open with location results">
 
 1. Tap the **search bar** at the top of the map and type a city or place name.
 2. Select a result from the list. The add sheet opens with the name and coordinates already filled in.
@@ -66,7 +66,7 @@ Tap any red pin on the map to open the place detail sheet.
 
 ## 3. Add / Edit Place Sheet
 
-<img src="iOS Travel Map/Images/04_add_place.png" width="300" alt="Add place form with name, date, photo and location preview">
+<img src="Images/04_add_place.png" width="300" alt="Add place form with name, date, photo and location preview">
 
 A form sheet for creating or editing a place record.
 
@@ -85,7 +85,7 @@ Tap **Adjust** below the location preview map. An orange crosshair appears — p
 
 ## 4. Place Detail
 
-<img src="iOS Travel Map/Images/05_place_detail.png" width="300" alt="Place detail view showing notes and mini-map">
+<img src="Images/05_place_detail.png" width="300" alt="Place detail view showing notes and mini-map">
 
 Tapping a place (from the map or the list) opens a detail sheet showing:
 
@@ -100,13 +100,13 @@ Tap **Edit** to open the edit form, or **Delete Place** at the bottom to remove 
 
 ## 5. Places Tab
 
-<img src="iOS Travel Map/Images/06_places_list.png" width="300" alt="Places list showing saved locations">
+<img src="Images/06_places_list.png" width="300" alt="Places list showing saved locations">
 
 The Places tab shows a list of all your saved places.
 
 ### Sort the list
 
-<img src="iOS Travel Map/Images/07_sort_menu.png" width="300" alt="Sort options menu open">
+<img src="Images/07_sort_menu.png" width="300" alt="Sort options menu open">
 
 Tap the **sort button** (↑↓ circle icon) in the toolbar and choose from:
 - **Date (newest first)** — default
@@ -121,7 +121,7 @@ Swipe left on any row and tap **Delete**.
 
 ## 6. The ⋯ Menu
 
-<img src="iOS Travel Map/Images/08_menu.png" width="300" alt="The ellipsis menu showing all options">
+<img src="Images/08_menu.png" width="300" alt="The ellipsis menu showing all options">
 
 Tap **⋯** in the top-right toolbar of the Places tab to access:
 
@@ -142,14 +142,14 @@ There are two ways to bring in locations from your iOS photo library.
 
 Use this to import visited places from a specific iCloud Shared Album.
 
-<img src="iOS Travel Map/Images/09_shared_albums.png" width="300" alt="Shared album picker showing available albums">
+<img src="Images/09_shared_albums.png" width="300" alt="Shared album picker showing available albums">
 
 1. Tap **⋯ → Get Locations from Shared Photo Albums**.
 2. The app asks for photo library access — tap **Allow**.
 3. A list of your iCloud Shared Albums appears. Tap the one you want to scan.
 4. The app groups geotagged photos by geographic area and reverse-geocodes each group to a *City, Country* name. This takes a few seconds.
 
-<img src="iOS Travel Map/Images/10_shared_album_result.png" width="300" alt="Detected locations list — 5 already saved, 1 selected to add">
+<img src="Images/10_shared_album_result.png" width="300" alt="Detected locations list — 5 already saved, 1 selected to add">
 
 5. A list of detected locations appears. Locations you have already saved are marked **Already in your places** and cannot be selected again.
 6. Tick any new locations you want to add, then tap **Add N places**.
@@ -161,14 +161,14 @@ Use this to import visited places from a specific iCloud Shared Album.
 
 Use this to browse all geotagged photos from your entire photo library on a map and pick places to save.
 
-<img src="iOS Travel Map/Images/11_photo_map.png" width="300" alt="Photo map showing orange camera pins across the world">
+<img src="Images/11_photo_map.png" width="300" alt="Photo map showing orange camera pins across the world">
 
 1. Tap **⋯ → Explore Photos on Map**.
 2. The app requests photo library access if not already granted.
 3. The map appears almost immediately, showing **orange camera pins** — one per geographic area.
 4. Tap any pin to open a detail sheet.
 
-<img src="iOS Travel Map/Images/12_cluster_detail.png" width="300" alt="Cluster detail sheet with city name, photo count and thumbnail">
+<img src="Images/12_cluster_detail.png" width="300" alt="Cluster detail sheet with city name, photo count and thumbnail">
 
 5. The detail sheet shows the location name, how many photos were taken there, the earliest date, and a thumbnail.
 6. Tap the **thumbnail** to browse all photos from that area and choose a different one.
@@ -183,7 +183,7 @@ Back up all your places (including photos) to a single ZIP file you can store an
 
 ### Export a backup
 
-<img src="iOS Travel Map/Images/13_backup_export.png" width="300" alt="Share Sheet after tapping Export Backup">
+<img src="Images/13_backup_export.png" width="300" alt="Share Sheet after tapping Export Backup">
 
 1. Tap **⋯ → Export Backup**.
 2. The system Share Sheet appears. Save the ZIP to Files, send via AirDrop, email it, or store it anywhere you like.
@@ -192,7 +192,7 @@ The backup file is named `iOS-Travel-Map_YYYY-MM-DD_HHmmss.zip`.
 
 ### Restore from a backup
 
-<img src="iOS Travel Map/Images/14_backup_import.png" width="300" alt="Restore mode dialog with Replace All, Add Missing Only and Cancel options">
+<img src="Images/14_backup_import.png" width="300" alt="Restore mode dialog with Replace All, Add Missing Only and Cancel options">
 
 1. Tap **⋯ → Import Backup**.
 2. Browse to your `.zip` backup file and tap it.
