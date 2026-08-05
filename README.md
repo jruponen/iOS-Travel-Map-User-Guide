@@ -198,10 +198,10 @@ Each leg of the trip is drawn as an orange line with a directional arrow. When y
 
 ### Toolbar actions
 
-When a trip is selected, two buttons appear in the top-right toolbar:
+When a trip is selected:
 
-- **Edit Stops** — opens a sheet where you can set a custom stop order for the route (see below).
-- **Route icon** — zooms the map to fit all stops for the selected trip.
+- **Top-left toolbar** — a **pin icon** (same as on the Map tab) zooms the map to fit all stops for the selected trip.
+- **Top-right toolbar** — **Edit Stops** opens a sheet where you can set a custom stop order for the route (see below).
 
 ### Change the map style
 
