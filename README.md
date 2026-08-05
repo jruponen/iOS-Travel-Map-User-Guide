@@ -20,6 +20,7 @@ Keep track of every place you've visited. Add locations manually on the map, imp
 8. [Backup & Restore](#8-backup--restore)
 9. [iCloud Sync](#9-icloud-sync)
 10. [Tips](#10-tips)
+11. [About](#11-about)
 
 ---
 
@@ -66,7 +67,7 @@ Tap the search button again (or tap ✕) to hide the search bar.
 5. Tap **Save**.
 
 ### View or edit a saved place
-Tap any pin on the map to open the place detail sheet.
+Tap any pin on the map to open the place detail sheet. When you close the detail, the map returns to exactly the position and zoom level it was at before you opened it.
 
 ---
 
@@ -108,6 +109,8 @@ Tapping a place (from the map or the list) opens a detail sheet showing:
 - A photo (if one was added)
 
 Tap **Edit** to open the edit form, or **Delete Place** at the bottom to remove it.
+
+When you close the detail sheet, the map automatically returns to the position and zoom level it had before you opened it.
 
 ---
 
@@ -155,6 +158,7 @@ Tap **⋯** in the top-right toolbar of the Places tab to access:
 - **Get Locations from Shared Photo Albums** — import places from an iCloud Shared Album
 - **Explore Photos on Map** — browse your entire photo library on a map
 - **Help / User Guide** — opens this guide in Safari
+- **About** — shows app version, build date, and copyright information
 
 ---
 
@@ -168,11 +172,11 @@ There are two ways to bring in locations from your iOS photo library.
 
 Use this to import visited places from a specific iCloud Shared Album.
 
-<img src="Images/09_shared_albums.png" width="300" alt="Shared album picker showing available albums">
+<img src="Images/09_shared_albums.png" width="300" alt="Shared album picker with search bar and available albums">
 
 1. Tap **⋯ → Get Locations from Shared Photo Albums**.
 2. The app asks for photo library access — tap **Allow**.
-3. A list of your iCloud Shared Albums appears. Tap the one you want to scan.
+3. A list of your iCloud Shared Albums appears. Use the **search bar** at the top to filter albums by name if you have many. Tap the album you want to scan.
 4. The app groups geotagged photos by geographic area and reverse-geocodes each group to a *City, Country* name. This takes a few seconds.
 
 <img src="Images/10_shared_album_result.png" width="300" alt="Detected locations list — 5 already saved, 1 selected to add">
@@ -181,25 +185,36 @@ Use this to import visited places from a specific iCloud Shared Album.
 6. Tick any new locations you want to add, then tap **Add N places**.
 7. To change the representative photo for a location, tap its thumbnail — a photo picker opens showing all photos from that area.
 
+#### Clustering radius
+At the top of the album list, a segmented control lets you choose how far apart photos must be to be treated as separate locations:
+
+| Radius | Best for |
+|--------|----------|
+| **10 km** | City breaks — keeps nearby neighbourhoods separate |
+| **20 km** | Short regional trips |
+| **50 km** | Default — works well for most holidays |
+| **100 km** | Long road trips or wide country tours |
+
 ---
 
 ### 7.2 Explore Photos on Map
 
 Use this to browse all geotagged photos from your entire photo library on a map and pick places to save.
 
-<img src="Images/11_photo_map.png" width="300" alt="Photo map showing orange camera pins across the world">
+<img src="Images/11_photo_map.png" width="300" alt="Photo map showing orange camera pins across the world with clustering radius picker at top">
 
 1. Tap **⋯ → Explore Photos on Map**.
 2. The app requests photo library access if not already granted.
 3. The map appears almost immediately, showing **orange camera pins** — one per geographic area.
-4. Tap any pin to open a detail sheet.
+4. Use the **clustering radius picker** at the top of the map to control how photos are grouped — choose **10 km**, **20 km**, **50 km**, or **100 km**. Changing the radius rescans your library automatically and your choice is remembered for next time.
+5. Tap any pin to open a detail sheet.
 
 <img src="Images/12_cluster_detail.png" width="300" alt="Cluster detail sheet with city name, photo count and thumbnail">
 
-5. The detail sheet shows the location name, how many photos were taken there, the earliest date, and a thumbnail.
-6. Tap the **thumbnail** to browse all photos from that area and choose a different one.
-7. Tap **Add to My Places** to save the location.
-8. Tap **Close** (top-left) at any time to cancel and dismiss.
+6. The detail sheet shows the location name, how many photos were taken there, the earliest date, and a thumbnail.
+7. Tap the **thumbnail** to browse all photos from that area and choose a different one.
+8. Tap **Add to My Places** to save the location.
+9. Tap **Close** (top-left) at any time to cancel and dismiss.
 
 ---
 
@@ -240,12 +255,27 @@ Your places sync automatically across all your Apple devices signed into the sam
 
 ## 10. Tips
 
-- **Large photo library?** Explore Photos on Map handles tens of thousands of photos — it clusters them into city-level pins so the map stays fast and easy to use.
-- **Same city, many photos?** Both import features cluster nearby photos into a single place entry. The Shared Album import lets you choose the clustering radius (10, 20, 50, or 100 km) — use a smaller radius for dense city trips, larger for road trips. Explore Photos on Map uses a fixed ~50 km grid.
+- **Large photo library?** Explore Photos on Map handles tens of thousands of photos — it clusters them into city-level pins so the map stays fast and easy to use. Adjust the clustering radius at the top of the map to control how broadly photos are grouped.
+- **Same city, many photos?** Both import features cluster nearby photos into a single place entry. Use a smaller radius for dense city trips, larger for road trips.
 - **Custom pins** — open any place in Edit to change its pin colour and icon. If you assign a photo to a place, the photo thumbnail is shown on the map instead.
-- **Jump to a place on the map** — from the Places tab, tap a place to open its detail, then tap the mini-map to switch to the Map tab centred on that place.
+- **Jump to a place on the map** — from the Places tab, tap a place to open its detail, then tap the mini-map to switch to the Map tab centred on that place. When you close the detail, the map returns to where you were.
 - **Changed your mind about a photo?** Tap a saved place → Edit, then tap the photo thumbnail to pick a new one from your library.
 - **Moved to a new phone?** Export a backup on the old phone, AirDrop the ZIP to the new phone, then Import Backup → Replace All Data. All your places, photos, and pin styles will be there.
+
+---
+
+## 11. About
+
+<img src="Images/15_about.png" width="300" alt="About screen showing app icon, version, build date and copyright">
+
+The About screen shows key information about this version of the app:
+
+- **Version & build number** — e.g. *1.1 (build 3)*
+- **Built** — the date and time this version was compiled
+- **Copyright** — © 2026 Jukka Ruponen. All rights reserved.
+- A **Help / User Guide** button linking to this guide
+
+Access it via **⋯ → About** in the Places tab.
 
 ---
 
