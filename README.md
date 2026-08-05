@@ -143,6 +143,10 @@ Shows all trips that have been named. Each row shows the trip name, number of pl
 
 <img src="Images/20_places_list_with_trips_slide_right_for_rename_option.png" width="300" alt="Trip row swiped right revealing orange Rename button">
 
+Tap **Rename** to open a prompt where you can type the new name:
+
+<img src="Images/21_places_list_trips_rename_alert.png" width="300" alt="Rename Trip alert with pre-filled text field">
+
 **Swipe left** to reveal a **Remove Trip** button (red) — this clears the trip name from all places in that trip without deleting the places themselves:
 
 <img src="Images/20b_places_list_with_trips_slide_left_for_remove-trip_option.png" width="300" alt="Trip row swiped left revealing red Remove Trip button">
