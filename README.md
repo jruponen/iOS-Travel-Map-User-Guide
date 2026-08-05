@@ -364,7 +364,7 @@ Your places sync automatically across all your Apple devices signed into the sam
 
 The About screen shows key information about this version of the app:
 
-- **Version & build number** — e.g. *1.1 (build 3)*
+- **Version & build number** — e.g. *1.2 (build 1)*
 - **Built** — the date and time this version was compiled
 - **Copyright** — © 2026 Jukka Ruponen. All rights reserved.
 - A **Help / User Guide** button linking to this guide
