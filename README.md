@@ -136,7 +136,13 @@ Each row shows the place name, city/country (if set), date, trip name (if set), 
 
 Shows all trips that have been named. Each row shows the trip name, number of places, and date range. Tap a trip to switch to the **Trips tab** and view it on the map.
 
-**Swipe left** on a trip row to reveal a **Rename** button (orange). **Swipe right** to reveal a **Remove Trip** button (red) — this clears the trip name from all places in that trip without deleting the places themselves.
+**Swipe right** on a trip row to reveal a **Rename** button (orange):
+
+<img src="Images/20_places_list_with_trips_slide_right_for_rename_option.png" width="300" alt="Trip row swiped right revealing orange Rename button">
+
+**Swipe left** to reveal a **Remove Trip** button (red) — this clears the trip name from all places in that trip without deleting the places themselves:
+
+<img src="Images/20b_places_list_with_trips_slide_left_for_remove-trip_option.png" width="300" alt="Trip row swiped left revealing red Remove Trip button">
 
 ### Search the list
 
@@ -180,6 +186,8 @@ A **trip picker card** appears at the top of the map. Tap it to open the trip li
 Tap a trip to select it and zoom the map to fit all its stops. A **checkmark** marks the currently selected trip. Tap **No Trip Selected** at the top to deselect.
 
 To **rename** a trip, tap the **✎ pencil button** on the right side of any trip row — a prompt appears where you can type the new name. The rename is applied to all places that belong to that trip.
+
+<img src="Images/19_trips_tab_pressed_pencil_renaming_trip_screen.png" width="300" alt="Rename Trip alert with pre-filled text field">
 
 ### Route lines
 
