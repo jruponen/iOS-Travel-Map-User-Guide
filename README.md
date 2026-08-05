@@ -47,7 +47,10 @@ The Map tab shows a full-screen map with custom pins marking all your saved plac
 Tap the small **map style button** in the bottom-left corner of the map. Three tiles appear — tap **Standard**, **Hybrid**, or **Satellite** to switch. Tap the button again to collapse the picker. Your choice is remembered.
 
 ### Zoom to fit all places
-Tap the **pin icon** (top-left toolbar button) to zoom the map out so all your saved places are visible at once.
+
+<img src="Images/01c_map_overview_zoom_to_fit.png" width="300" alt="Map tab with the zoom-to-fit button highlighted in the top-left toolbar">
+
+Tap the **pin icon** (top-left toolbar button, highlighted above) to zoom the map out so all your saved places are visible at once.
 
 ### Search for a location
 
