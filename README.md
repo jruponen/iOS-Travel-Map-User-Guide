@@ -14,7 +14,7 @@ Keep track of every place you've visited. Add locations manually on the map, imp
 4. [Place Detail](#4-place-detail)
 5. [Places Tab](#5-places-tab)
 6. [Trips Tab](#6-trips-tab)
-7. [The ••• Menu](#7-the---menu)
+7. [The More Menu (•••)](#7-the-more-menu-)
 8. [Adding Places from Your Photos](#8-adding-places-from-your-photos)
    - 8.1 [Add Places from Shared Album](#81-add-places-from-shared-album)
    - 8.2 [Explore Photos on Map](#82-explore-photos-on-map)
@@ -233,7 +233,7 @@ When a custom order is active, the trip picker card shows **· custom order** ne
 
 ---
 
-## 7. The ••• Menu
+## 7. The More Menu (•••)
 
 <img src="Images/08_places_list_dots-menu.png" width="300" alt="The ellipsis menu showing all options">
 
