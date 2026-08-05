@@ -354,7 +354,7 @@ Your places sync automatically across all your Apple devices signed into the sam
 - **Custom pins** — open any place in Edit to change its pin colour and icon. If you assign a photo to a place, the photo thumbnail is shown on the map instead.
 - **Jump to a place on the map** — from the Places tab, tap a place to open its detail, then tap the mini-map to switch to the Map tab centred on that place. When you close the detail, the map returns to where you were.
 - **Changed your mind about a photo?** Tap a saved place → Edit, then tap the photo thumbnail to pick a new one from your library.
-- **Moved to a new phone?** Export a backup on the old phone, AirDrop the ZIP to the new phone, then Import Backup → Replace All Data. All your places, photos, pin styles, and trip data will be there.
+- **Switching to a new Apple ID or want an offline archive?** Export a backup first — AirDrop the ZIP to the new device and use Import Backup → Replace All Data. If you're staying on the same iCloud account, your data will sync automatically.
 
 ---
 
