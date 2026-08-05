@@ -14,7 +14,7 @@ Keep track of every place you've visited. Add locations manually on the map, imp
 4. [Place Detail](#4-place-detail)
 5. [Places Tab](#5-places-tab)
 6. [Trips Tab](#6-trips-tab)
-7. [The ⋯ Menu](#7-the--menu)
+7. [The ••• Menu](#7-the---menu)
 8. [Adding Places from Your Photos](#8-adding-places-from-your-photos)
    - 8.1 [Add Places from Shared Album](#81-add-places-from-shared-album)
    - 8.2 [Explore Photos on Map](#82-explore-photos-on-map)
@@ -233,11 +233,11 @@ When a custom order is active, the trip picker card shows **· custom order** ne
 
 ---
 
-## 7. The ⋯ Menu
+## 7. The ••• Menu
 
 <img src="Images/08_places_list_dots-menu.png" width="300" alt="The ellipsis menu showing all options">
 
-Tap **⋯** in the top-right toolbar of the Places tab to access:
+Tap <img src="Images/icon_dots_menu.png" height="18" alt="dots menu button"> in the top-right toolbar of the Places tab to access:
 
 - **Export Backup** — save all your places to a ZIP file
 - **Import Backup** — restore from a ZIP backup
@@ -260,7 +260,7 @@ Use this to import visited places from a specific iCloud Shared Album.
 
 <img src="Images/09_add_from_shared_albums.png" width="300" alt="Shared album picker with clustering radius settings and available albums">
 
-1. Tap **⋯ → Add Places from Shared Album**.
+1. Tap **<img src="Images/icon_dots_menu.png" height="18" alt="•••"> → Add Places from Shared Album**.
 2. The app asks for photo library access — tap **Allow**.
 3. At the top, a **Settings** section lets you choose the **clustering radius** (see table below). Changing the radius rescans the selected album automatically.
 4. Below settings, your iCloud Shared Albums are listed. Use the **search bar** to filter by album name. Tap the album you want to scan.
@@ -289,7 +289,7 @@ Use this to browse all geotagged photos from your entire photo library on a map 
 
 <img src="Images/11_explore_photos_on_map.png" width="300" alt="Photo map showing orange camera pins across the world with clustering radius picker at top">
 
-1. Tap **⋯ → Explore Photos on Map**.
+1. Tap **<img src="Images/icon_dots_menu.png" height="18" alt="•••"> → Explore Photos on Map**.
 2. The app requests photo library access if not already granted.
 3. The map appears almost immediately, showing **orange camera pins** — one per geographic area.
 4. Use the **clustering radius picker** at the top of the map to control how photos are grouped — choose **10 km**, **20 km**, **50 km**, or **100 km**. Changing the radius rescans your library automatically and your choice is remembered for next time.
@@ -313,7 +313,7 @@ Back up all your places (including photos and trip data) to a single ZIP file yo
 
 ### Export a backup
 
-1. Tap **⋯ → Export Backup**.
+1. Tap **<img src="Images/icon_dots_menu.png" height="18" alt="•••"> → Export Backup**.
 2. The system Share Sheet appears. Save the ZIP to Files, send via AirDrop, email it, or store it anywhere you like.
 
 <img src="Images/13_backup_export_share_screen.png" width="300" alt="Share Sheet after tapping Export Backup">
@@ -324,7 +324,7 @@ The backup file is named `iOS-Travel-Map_YYYY-MM-DD_HHmmss.zip`.
 
 ### Restore from a backup
 
-1. Tap **⋯ → Import Backup**.
+1. Tap **<img src="Images/icon_dots_menu.png" height="18" alt="•••"> → Import Backup**.
 2. Browse to your `.zip` backup file and tap it.
 
 <img src="Images/14_backup_import_files_select_file.png" width="300" alt="File picker showing a backup ZIP file selected for import">
@@ -369,7 +369,7 @@ The About screen shows key information about this version of the app:
 - **Copyright** — © 2026 Jukka Ruponen. All rights reserved.
 - A **Help / User Guide** button linking to this guide
 
-Access it via **⋯ → About** in the Places tab.
+Access it via **<img src="Images/icon_dots_menu.png" height="18" alt="•••"> → About** in the Places tab.
 
 ---
 
