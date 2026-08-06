@@ -345,6 +345,7 @@ Your places sync automatically across all your Apple devices signed into the sam
 
 ---
 
+<a name="privacy"></a>
 ## 11. Privacy
 
 **iOS Travel Map does not collect any personal information.**
