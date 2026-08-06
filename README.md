@@ -385,7 +385,7 @@ The app is free with no subscriptions, no in-app purchases, and no hidden costs.
 
 The About screen shows key information about this version of the app:
 
-- **Version & build number** — e.g. *1.2 (build 2)*
+- **Version & build number** — e.g. *1.2 (build 3)*
 - **Built** — the date and time this version was compiled
 - **Copyright** — © 2026 Jukka Ruponen. All rights reserved.
 - A **Help / User Guide** button linking to this guide
