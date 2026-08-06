@@ -20,8 +20,9 @@ Keep track of every place you've visited. Add locations manually on the map, imp
    - 8.2 [Explore Photos on Map](#82-explore-photos-on-map)
 9. [Backup & Restore](#9-backup--restore)
 10. [iCloud Sync](#10-icloud-sync)
-11. [Tips](#11-tips)
-12. [About](#12-about)
+11. [Privacy](#11-privacy)
+12. [Tips](#12-tips)
+13. [About](#13-about)
 
 ---
 
@@ -344,7 +345,26 @@ Your places sync automatically across all your Apple devices signed into the sam
 
 ---
 
-## 11. Tips
+## 11. Privacy
+
+**iOS Travel Map does not collect any personal information.**
+
+- ✅ No logins or accounts required
+- ✅ No user data is collected, stored, or transmitted to any server
+- ✅ No tracking, analytics, or crash reporting
+- ✅ No advertising or third-party SDKs
+- ✅ No data is shared with or sold to third parties
+- ✅ All your places, trips, and photos are stored locally on your device only
+- ✅ iCloud sync uses your own private Apple iCloud account via Apple's CloudKit — no one else, including the developer, can access your data
+- ✅ The app does not connect to any external services or backends
+- ✅ Location access is used solely to centre the map and pre-fill place names — your location is never recorded or transmitted
+- ✅ Photo library access is used solely to detect visited locations from your geotagged photos — your photos are never uploaded or transmitted anywhere. A photo you explicitly attach to a place is also kept locally on your device only
+
+The app is free with no subscriptions, no in-app purchases, and no hidden costs.
+
+---
+
+## 12. Tips
 
 - **Organise by trip** — open any place in Edit and fill in the **Trip Name** field. Give the same name to all places from a trip and they'll appear together in the Trips tab as a route on the map.
 - **Rename a trip** — in the Places tab Trips view, swipe left on a trip and tap **Rename**. Or in the Trips tab, tap the trip picker card and tap the **✎** next to any trip.
@@ -358,7 +378,7 @@ Your places sync automatically across all your Apple devices signed into the sam
 
 ---
 
-## 12. About
+## 13. About
 
 <img src="Images/15_about.png" width="300" alt="About screen showing app icon, version, build date and copyright">
 
